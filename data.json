@@ -153,6 +153,135 @@
         }
       ],
       "id": 2
+    },
+    {
+      "runs": [
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "green",
+              "position": "absolute",
+              "top": 210,
+              "left": 443
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "green",
+              "position": "absolute",
+              "top": 240,
+              "left": 583
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "green",
+              "position": "absolute",
+              "top": 350,
+              "left": 484
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "green",
+              "position": "absolute",
+              "top": 326,
+              "left": 695
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      ],
+      "id": 3
+    },
+    {
+      "runs": [
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "red",
+              "position": "absolute",
+              "top": 231,
+              "left": 300
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "red",
+              "position": "absolute",
+              "top": 288,
+              "left": 475
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "red",
+              "position": "absolute",
+              "top": 249,
+              "left": 710
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      ],
+      "id": 4
     }
   ]
 }

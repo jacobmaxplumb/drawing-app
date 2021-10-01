@@ -22,8 +22,12 @@ function App() {
     setDots([]);
   }
 
+  const updateDots = (ds) => {
+    setDots(ds);
+  }
+
   const saveDots = () => {
-    axios.post('http://localhost:8080/runs', {runs: dots}).then(() => {
+    return axios.post('http://localhost:8080/runs', {runs: dots}).then(() => {
       console.log('saved successfully');
       clearDots();
     })
@@ -33,7 +37,7 @@ function App() {
     <Container maxWidth="lg">
       <ColorPicker color={color} handleColorChange={handleColorChange} />
       <Canvas handleAddDot={handleAddDot} dots={dots} color={color} />
-      <DotActions saveDots={saveDots} clearDots={clearDots} />
+      <DotActions updateDots={updateDots} saveDots={saveDots} clearDots={clearDots} />
     </Container>
   );
 }

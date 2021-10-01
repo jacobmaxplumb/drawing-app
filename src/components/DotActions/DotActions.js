@@ -31,11 +31,11 @@ export class DotActions extends React.Component {
             <Card className="action-card">
                 <CardContent>
                     {this.state.runs.map((run, i) => (
-                        <Button variant="contained" key={i}>{run.id}</Button>
+                        <Button onClick={() => this.props.updateDot(run.runs)} variant="contained" key={i}>{run.id}</Button>
                     ))}
                 </CardContent>
                 <CardActions>
-                    <Button onClick={() => this.props.saveDots()} variant="contained">Save</Button>
+                    <Button onClick={this.handleSave} variant="contained">Save</Button>
                     <Button onClick={() => this.props.clearDots()}>Clear</Button>
                 </CardActions>
             </Card>
