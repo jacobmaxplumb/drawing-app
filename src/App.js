@@ -7,15 +7,20 @@ import { DotActions } from './components/DotActions/DotActions';
 
 function App() {
   const [color, setColor] = useState('');
+  const [dots, setDots] = useState([]);
 
   const handleColorChange = (c) => {
     setColor(c);
   }
 
+  const handleAddDot = (dot) => {
+    setDots([...dots, dot]);
+  }
+
   return (
     <Container maxWidth="lg">
       <ColorPicker color={color} handleColorChange={handleColorChange} />
-      <Canvas color={color} />
+      <Canvas handleAddDot={handleAddDot} dots={dots} color={color} />
       <DotActions />
     </Container>
   );

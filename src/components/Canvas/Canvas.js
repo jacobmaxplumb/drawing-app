@@ -5,9 +5,6 @@ import React from "react";
 export class Canvas extends React.Component {
     constructor() {
         super();
-        this.state = {
-            dots: []
-        }
     }
 
     addDot = (e) => {
@@ -20,13 +17,13 @@ export class Canvas extends React.Component {
             left: e.clientX
         }
         const dot = <div style={styles}></div>
-        this.setState({dots: [...this.state.dots, dot]});
+        this.props.handleAddDot(dot);
     }
 
     render() {
         return (
             <Paper onClick={this.addDot} className="canvas" elevation={3}>
-                {this.state.dots.map((dot, i) => (
+                {this.props.dots.map((dot, i) => (
                     <div key={i}>
                         {dot}
                     </div>
