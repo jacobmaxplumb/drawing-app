@@ -31,7 +31,7 @@ export class DotActions extends React.Component {
             <Card className="action-card">
                 <CardContent>
                     {this.state.runs.map((run, i) => (
-                        <Button onClick={() => this.props.updateDot(run.runs)} variant="contained" key={i}>{run.id}</Button>
+                        <Button onClick={() => this.props.updateDots(run.runs)} variant="contained" key={i}>{run.id}</Button>
                     ))}
                 </CardContent>
                 <CardActions>

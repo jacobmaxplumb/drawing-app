@@ -16,6 +16,7 @@ function App() {
 
   const handleAddDot = (dot) => {
     setDots([...dots, dot]);
+    console.log(dots);
   }
 
   const clearDots = () => {
@@ -23,11 +24,14 @@ function App() {
   }
 
   const updateDots = (ds) => {
+    const d = ds.map(a => {
+      
+    })
     setDots(ds);
   }
 
   const saveDots = () => {
-    return axios.post('http://localhost:8080/runs', {runs: dots}).then(() => {
+    return axios.post('http://localhost:8080/runs', {runs: {...dots, $$typeof: dots.$$typeof}}).then(() => {
       console.log('saved successfully');
       clearDots();
     })

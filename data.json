@@ -9,8 +9,8 @@
   ],
   "runs": [
     {
-      "runs": [
-        {
+      "runs": {
+        "0": {
           "type": "div",
           "key": null,
           "ref": null,
@@ -20,14 +20,14 @@
               "height": "10px",
               "backgroundColor": "red",
               "position": "absolute",
-              "top": 223,
-              "left": 371
+              "top": 237,
+              "left": 362
             }
           },
           "_owner": null,
           "_store": {}
         },
-        {
+        "1": {
           "type": "div",
           "key": null,
           "ref": null,
@@ -37,14 +37,14 @@
               "height": "10px",
               "backgroundColor": "red",
               "position": "absolute",
-              "top": 226,
-              "left": 561
+              "top": 238,
+              "left": 550
             }
           },
           "_owner": null,
           "_store": {}
         },
-        {
+        "2": {
           "type": "div",
           "key": null,
           "ref": null,
@@ -54,234 +54,15 @@
               "height": "10px",
               "backgroundColor": "red",
               "position": "absolute",
-              "top": 380,
-              "left": 488
+              "top": 381,
+              "left": 548
             }
           },
           "_owner": null,
           "_store": {}
         }
-      ],
+      },
       "id": 1
-    },
-    {
-      "runs": [
-        {
-          "type": "div",
-          "key": null,
-          "ref": null,
-          "props": {
-            "style": {
-              "width": "10px",
-              "height": "10px",
-              "backgroundColor": "orange",
-              "position": "absolute",
-              "top": 124,
-              "left": 245
-            }
-          },
-          "_owner": null,
-          "_store": {}
-        },
-        {
-          "type": "div",
-          "key": null,
-          "ref": null,
-          "props": {
-            "style": {
-              "width": "10px",
-              "height": "10px",
-              "backgroundColor": "orange",
-              "position": "absolute",
-              "top": 199,
-              "left": 421
-            }
-          },
-          "_owner": null,
-          "_store": {}
-        },
-        {
-          "type": "div",
-          "key": null,
-          "ref": null,
-          "props": {
-            "style": {
-              "width": "10px",
-              "height": "10px",
-              "backgroundColor": "orange",
-              "position": "absolute",
-              "top": 347,
-              "left": 481
-            }
-          },
-          "_owner": null,
-          "_store": {}
-        },
-        {
-          "type": "div",
-          "key": null,
-          "ref": null,
-          "props": {
-            "style": {
-              "width": "10px",
-              "height": "10px",
-              "backgroundColor": "orange",
-              "position": "absolute",
-              "top": 223,
-              "left": 684
-            }
-          },
-          "_owner": null,
-          "_store": {}
-        },
-        {
-          "type": "div",
-          "key": null,
-          "ref": null,
-          "props": {
-            "style": {
-              "width": "10px",
-              "height": "10px",
-              "backgroundColor": "orange",
-              "position": "absolute",
-              "top": 298,
-              "left": 775
-            }
-          },
-          "_owner": null,
-          "_store": {}
-        }
-      ],
-      "id": 2
-    },
-    {
-      "runs": [
-        {
-          "type": "div",
-          "key": null,
-          "ref": null,
-          "props": {
-            "style": {
-              "width": "10px",
-              "height": "10px",
-              "backgroundColor": "green",
-              "position": "absolute",
-              "top": 210,
-              "left": 443
-            }
-          },
-          "_owner": null,
-          "_store": {}
-        },
-        {
-          "type": "div",
-          "key": null,
-          "ref": null,
-          "props": {
-            "style": {
-              "width": "10px",
-              "height": "10px",
-              "backgroundColor": "green",
-              "position": "absolute",
-              "top": 240,
-              "left": 583
-            }
-          },
-          "_owner": null,
-          "_store": {}
-        },
-        {
-          "type": "div",
-          "key": null,
-          "ref": null,
-          "props": {
-            "style": {
-              "width": "10px",
-              "height": "10px",
-              "backgroundColor": "green",
-              "position": "absolute",
-              "top": 350,
-              "left": 484
-            }
-          },
-          "_owner": null,
-          "_store": {}
-        },
-        {
-          "type": "div",
-          "key": null,
-          "ref": null,
-          "props": {
-            "style": {
-              "width": "10px",
-              "height": "10px",
-              "backgroundColor": "green",
-              "position": "absolute",
-              "top": 326,
-              "left": 695
-            }
-          },
-          "_owner": null,
-          "_store": {}
-        }
-      ],
-      "id": 3
-    },
-    {
-      "runs": [
-        {
-          "type": "div",
-          "key": null,
-          "ref": null,
-          "props": {
-            "style": {
-              "width": "10px",
-              "height": "10px",
-              "backgroundColor": "red",
-              "position": "absolute",
-              "top": 231,
-              "left": 300
-            }
-          },
-          "_owner": null,
-          "_store": {}
-        },
-        {
-          "type": "div",
-          "key": null,
-          "ref": null,
-          "props": {
-            "style": {
-              "width": "10px",
-              "height": "10px",
-              "backgroundColor": "red",
-              "position": "absolute",
-              "top": 288,
-              "left": 475
-            }
-          },
-          "_owner": null,
-          "_store": {}
-        },
-        {
-          "type": "div",
-          "key": null,
-          "ref": null,
-          "props": {
-            "style": {
-              "width": "10px",
-              "height": "10px",
-              "backgroundColor": "red",
-              "position": "absolute",
-              "top": 249,
-              "left": 710
-            }
-          },
-          "_owner": null,
-          "_store": {}
-        }
-      ],
-      "id": 4
     }
   ]
 }
