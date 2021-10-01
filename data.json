@@ -63,6 +63,96 @@
         }
       },
       "id": 1
+    },
+    {
+      "runs": {
+        "0": {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "red",
+              "position": "absolute",
+              "top": 381,
+              "left": 548
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        "1": {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "orange",
+              "position": "absolute",
+              "top": 229,
+              "left": 388
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        "2": {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "orange",
+              "position": "absolute",
+              "top": 230,
+              "left": 568
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        "3": {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "orange",
+              "position": "absolute",
+              "top": 268,
+              "left": 627
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        "4": {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "orange",
+              "position": "absolute",
+              "top": 337,
+              "left": 637
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      },
+      "id": 2
     }
   ]
 }
