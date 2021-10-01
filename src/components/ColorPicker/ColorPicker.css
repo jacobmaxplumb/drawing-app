@@ -1,0 +1,8 @@
+.color {
+    flex-grow: 1;
+    color: black !important;
+}
+
+.selected {
+    opacity: 0.5;
+}

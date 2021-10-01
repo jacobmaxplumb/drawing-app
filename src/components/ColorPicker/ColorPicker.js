@@ -1,6 +1,7 @@
 import { Button, ButtonGroup, Container } from "@mui/material";
 import axios from "axios";
 import React from "react";
+import './ColorPicker.css';
 
 export class ColorPicker extends React.Component {
     constructor() {
@@ -21,7 +22,14 @@ export class ColorPicker extends React.Component {
             <Container maxWidth="sm">
                 <ButtonGroup variant="contained" aria-label="outlined primary button group">
                     {this.state.colors.map((color, i) => (
-                        <Button variant="contained">{color}</Button>
+                        <Button
+                            key={i}
+                            onClick={() => this.props.handleColorChange(color)}
+                            className={color === this.props.color ? 'color selected' : 'color'}
+                            style={{ backgroundColor: color }}
+                            variant="contained">
+                            {color}
+                        </Button>
                     ))}
                 </ButtonGroup>
             </Container>
