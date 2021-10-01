@@ -4,6 +4,7 @@ import { Container } from '@mui/material';
 import { useState } from 'react';
 import { Canvas } from './components/Canvas/Canvas';
 import { DotActions } from './components/DotActions/DotActions';
+import axios from 'axios';
 
 function App() {
   const [color, setColor] = useState('');
@@ -17,11 +18,22 @@ function App() {
     setDots([...dots, dot]);
   }
 
+  const clearDots = () => {
+    setDots([]);
+  }
+
+  const saveDots = () => {
+    axios.post('http://localhost:8080/runs', {runs: dots}).then(() => {
+      console.log('saved successfully');
+      clearDots();
+    })
+  }
+
   return (
     <Container maxWidth="lg">
       <ColorPicker color={color} handleColorChange={handleColorChange} />
       <Canvas handleAddDot={handleAddDot} dots={dots} color={color} />
-      <DotActions />
+      <DotActions saveDots={saveDots} clearDots={clearDots} />
     </Container>
   );
 }

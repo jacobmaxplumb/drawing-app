@@ -7,5 +7,152 @@
     "blue",
     "purple"
   ],
-  "runs": []
+  "runs": [
+    {
+      "runs": [
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "red",
+              "position": "absolute",
+              "top": 223,
+              "left": 371
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "red",
+              "position": "absolute",
+              "top": 226,
+              "left": 561
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "red",
+              "position": "absolute",
+              "top": 380,
+              "left": 488
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      ],
+      "id": 1
+    },
+    {
+      "runs": [
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "orange",
+              "position": "absolute",
+              "top": 124,
+              "left": 245
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "orange",
+              "position": "absolute",
+              "top": 199,
+              "left": 421
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "orange",
+              "position": "absolute",
+              "top": 347,
+              "left": 481
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "orange",
+              "position": "absolute",
+              "top": 223,
+              "left": 684
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "key": null,
+          "ref": null,
+          "props": {
+            "style": {
+              "width": "10px",
+              "height": "10px",
+              "backgroundColor": "orange",
+              "position": "absolute",
+              "top": 298,
+              "left": 775
+            }
+          },
+          "_owner": null,
+          "_store": {}
+        }
+      ],
+      "id": 2
+    }
+  ]
 }
