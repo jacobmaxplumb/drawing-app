@@ -1,21 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import { ColorPicker } from './components/ColorPicker/ColorPicker';
-import { useState } from 'react';
-import { Button } from '@mui/material';
+import { Container } from '@mui/material';
 
 function App() {
-  const [show, setShow] = useState(true);
-
-  const toggleShow = () => {
-    setShow(!show);
-  }
 
   return (
-    <div className="App">
-      {show ? (<ColorPicker />) : (<></>)}
-      <Button variant="contained" onClick={toggleShow}>Toggle</Button>
-    </div>
+    <Container maxWidth="lg">
+      <ColorPicker sayHello={sayHello} />
+    </Container>
   );
 }
 
