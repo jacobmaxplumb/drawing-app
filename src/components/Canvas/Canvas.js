@@ -14,7 +14,7 @@ export class Canvas extends React.Component {
         const styles = {
             width: '10px', 
             height: '10px', 
-            backgroundColor: 'blue', 
+            backgroundColor: this.props.color, 
             position: 'absolute', 
             top: e.clientY, 
             left: e.clientX

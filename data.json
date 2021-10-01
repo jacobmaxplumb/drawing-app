@@ -7,18 +7,5 @@
     "blue",
     "purple"
   ],
-  "people": [
-    {
-      "id": 1,
-      "name": "jacob"
-    },
-    {
-      "id": 2,
-      "name": "james"
-    },
-    {
-      "name": "Jon",
-      "id": 3
-    }
-  ]
+  "runs": []
 }
